@@ -25,9 +25,9 @@ public class Wilder{
 	public String whoAmI(){
 		if (this.isAware()) {
 									// utilisation de getters    
-			return "Je m'appelle " + this.getFerstname() + " et je suis";
+			return "Je m'appelle " + this.getFerstname() + " et je suis aware.";
 		}else{						// utilisation de getters    
-			return "Je m'appelle " + this.getFerstname() + " et e ne suis pas aware";
+			return "Je m'appelle " + this.getFerstname() + " et e ne suis pas aware.";
 		}
 	}
 }
